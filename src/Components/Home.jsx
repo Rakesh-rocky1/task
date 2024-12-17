@@ -39,7 +39,7 @@ export default function Home() {
 
   
   return (
-    <Box sx={{backgroundColor: "green",width:"100%",height:"100vh",display:"flex",justifyContent:"center",alignItems:"center"}}> 
+    <Box sx={{backgroundColor: "yellow",width:"100%",height:"100vh",display:"flex",justifyContent:"center",alignItems:"center"}}> 
     <Paper sx={{p:10}}>
         <Box>
         <Grid2 container spacing={2}></Grid2>
@@ -59,7 +59,7 @@ export default function Home() {
                 
               )}
               
-            </Box>
+            </Box>  
         </Grid2>
         </Box>
     </Paper>
